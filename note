@@ -1,0 +1,8 @@
+show list of containers
+sudo docker ps  
+
+run docker Postgres:
+sudo docker-compose up dev-db
+
+Run Prisma client:
+npx prisma studio

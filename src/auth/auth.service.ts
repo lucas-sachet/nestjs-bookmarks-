@@ -4,5 +4,11 @@ import { Injectable } from '@nestjs/common';
 export class AuthService {
   login() {}
 
-  signUp() {}
+    signUp() {
+        return { msg: 'I have signed up'}
+     }
+    
+    signIn() {
+        return { msg: 'I have signed in'}
+    }
 }

@@ -10,7 +10,12 @@ exports.AuthService = void 0;
 const common_1 = require("@nestjs/common");
 let AuthService = class AuthService {
     login() { }
-    signUp() { }
+    signUp() {
+        return { msg: 'I have signed up' };
+    }
+    signIn() {
+        return { msg: 'I have signed in' };
+    }
 };
 AuthService = __decorate([
     (0, common_1.Injectable)({})

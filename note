@@ -1,3 +1,6 @@
+start docker
+systemctl docker start
+
 show list of containers
 sudo docker ps  
 
